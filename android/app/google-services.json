@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "412927549533",
+    "project_id": "benkelly864-20c4a",
+    "storage_bucket": "benkelly864-20c4a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412927549533:android:ddbcb20cf7e01726b82db4",
+        "android_client_info": {
+          "package_name": "com.benkelly.benkellyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412927549533-dmjam159gk26nkie0jkeaockcvb26d39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.benkelly.benkellyapp",
+            "certificate_hash": "ebf150af026f4d3cc56341ea6abae39c6760b4d6"
+          }
+        },
+        {
+          "client_id": "412927549533-htf25msv2vvkv1f6ss3tp18vegb18uq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOLIyKozq-FcRW5KePtbiQcCVx5j7cp0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412927549533-htf25msv2vvkv1f6ss3tp18vegb18uq2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "412927549533-jrpsmmots6h2ome59rc4mhm6m6s3ve1v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.benkelly.benkellyapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

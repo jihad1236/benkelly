@@ -1,0 +1,66 @@
+# Flutter/Dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Android
+**/local.properties
+**/.gradle
+**/captures/
+**/outputs/
+android/.gradle/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/App.framework
+ios/Flutter/engine/Flutter.xcframework
+ios/ServiceDefinitions.json
+
+# Generated files
+Generated.xcconfig
+
+# Secrets / keystores
+android/app/*.jks
+**/*.keystore
+
+# Firebase
+.google-services.json
+GoogleService-Info.plist
+
+# Logs
+*.log
+
+# Misc
+coverage/
+*.lock
+
+# Local settings
+.env
+
+# JetBrains
+out/
+
+# Web
+build/web/
+
+# Lockfiles
+pubspec.lock
