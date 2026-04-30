@@ -1,5 +1,5 @@
 class ApiConstants {
-  static const String baseUrl = 'http://63.34.15.207:8000';
+  static const String baseUrl = 'http://63.34.15.207:8080';
   // static const String aiBaseUrl = 'https://benkelly864-ai.onrender.com/api/v1';
 
   static const String register = '$baseUrl/auth/register/register_user/';
@@ -17,7 +17,7 @@ class ApiConstants {
   static String collectionDetails(int id) => '$baseUrl/explore/explore/$id/';
 
   static const String landmarkDetect =
-      'http://63.34.15.207:8000/api/v1/landmark/detect';
+      'http://63.34.15.207:8000/landmark/detect';
   static const String exploreCreate = '$baseUrl/explore/explore/';
   static const String resetPassword = '$baseUrl/auth/password/reset/';
   static const String googleSocialLogin = '$baseUrl/auth/google/';

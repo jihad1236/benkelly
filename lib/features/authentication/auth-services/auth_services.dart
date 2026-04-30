@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:benkelly864/core/utils/constants/api_constants.dart';
 import 'package:benkelly864/core/services/storage_service.dart';
+import 'package:benkelly864/core/utils/logging/logger.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
@@ -78,6 +79,8 @@ class AuthServices {
           final user = body['user'];
           final id = user != null ? user['id']?.toString() : null;
           final email = user != null ? user['email']?.toString() : null;
+
+          AppLoggerHelper.debug("response body: $body");
 
           debugPrint(
             'Login successful: access=$access, refresh=$refresh, id=$id, email=$email',

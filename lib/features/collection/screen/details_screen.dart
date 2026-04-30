@@ -42,9 +42,21 @@ class DetailsScreen extends StatelessWidget {
         color: isDarkMode ? null : Colors.white,
         child: Scaffold(
           backgroundColor: isDarkMode ? Colors.transparent : AppColors.scaffold,
-          appBar: CustomAppBar(
-            title: AppText.buildingDetailsTitle,
-            showBack: true,
+          appBar: AppBar(
+            backgroundColor: Colors.transparent,
+            elevation: 0,
+            leading: IconButton(
+              icon: const Icon(Icons.arrow_back_ios, color: AppColors.textPrimary),
+              onPressed: () => Get.back(),
+            ),
+            title: Text(
+              "Building Details",
+              style: getTextStyle(
+                fontSize: 18.sp,
+                fontWeight: FontWeight.w600,
+                color: AppColors.textPrimary,
+              ),
+            ),
           ),
           body: Stack(
             children: [
@@ -91,6 +103,10 @@ class DetailsScreen extends StatelessWidget {
                         imageUrl: details.image ?? '',
                         title: details.name,
                         location: details.location,
+                        onBookmarkTap: (){
+
+                          
+                        },
                       ),
                       SizedBox(height: 20.h),
 

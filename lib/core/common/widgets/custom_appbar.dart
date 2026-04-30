@@ -63,21 +63,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
             children: [
               Row(
                 children: [
-                  SizedBox(
-                    width: 40.w,
-                    child: showBack
-                        ? GestureDetector(
-                            onTap: onBackTap ?? () => Navigator.pop(context),
-                            child: Icon(
-                              Icons.arrow_back_ios_new,
-                              size: 20.w,
-                              color: isDarkMode
-                                  ? AppColors.white
-                                  : AppColors.deepForest,
-                            ),
-                          )
-                        : const SizedBox.shrink(),
-                  ),
+                  
 
                   Expanded(
                     child: Text(
@@ -93,19 +79,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                     ),
                   ),
 
-                  SizedBox(
-                    width: 40.w,
-                    child: showSearch
-                        ? GestureDetector(
-                            onTap: onSearchTap,
-                            child: Icon(
-                              Icons.search,
-                              size: 22.w,
-                              color: AppColors.deepForest,
-                            ),
-                          )
-                        : const SizedBox.shrink(),
-                  ),
                 ],
               ),
               SizedBox(height: 8.h),
